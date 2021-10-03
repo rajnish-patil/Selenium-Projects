@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17953" started-at="2021-09-30T22:42:50 IST" finished-at="2021-09-30T22:43:08 IST">
+    <groups>
+    </groups>
+    <test name="Validating Title" duration-ms="5770" started-at="2021-09-30T22:42:50 IST" finished-at="2021-09-30T22:42:56 IST">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initializeTitleDriver()[pri:0, instance:Academy.ValidateTitle@35841320]" name="initializeTitleDriver" is-config="true" duration-ms="5495" started-at="2021-09-30T22:42:50 IST" finished-at="2021-09-30T22:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTitleDriver -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.ValidateTitle@35841320]" name="validateAppTitle" duration-ms="94" started-at="2021-09-30T22:42:56 IST" finished-at="2021-09-30T22:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:Academy.ValidateTitle@35841320]" name="validateHeader" duration-ms="49" started-at="2021-09-30T22:42:56 IST" finished-at="2021-09-30T22:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="closeTitleDriver()[pri:0, instance:Academy.ValidateTitle@35841320]" name="closeTitleDriver" is-config="true" duration-ms="103" started-at="2021-09-30T22:42:56 IST" finished-at="2021-09-30T22:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTitleDriver -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validating Title -->
+    <test name="Validating Navigation Bar" duration-ms="4788" started-at="2021-09-30T22:42:56 IST" finished-at="2021-09-30T22:43:01 IST">
+      <class name="Academy.ValidateNavBar">
+        <test-method status="PASS" signature="initializeNavDriver()[pri:0, instance:Academy.ValidateNavBar@43f02ef2]" name="initializeNavDriver" is-config="true" duration-ms="4604" started-at="2021-09-30T22:42:56 IST" finished-at="2021-09-30T22:43:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeNavDriver -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.ValidateNavBar@43f02ef2]" name="validateAppNavBar" duration-ms="88" started-at="2021-09-30T22:43:01 IST" finished-at="2021-09-30T22:43:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="closeNavDriver()[pri:0, instance:Academy.ValidateNavBar@43f02ef2]" name="closeNavDriver" is-config="true" duration-ms="94" started-at="2021-09-30T22:43:01 IST" finished-at="2021-09-30T22:43:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeNavDriver -->
+      </class> <!-- Academy.ValidateNavBar -->
+    </test> <!-- Validating Navigation Bar -->
+    <test name="Validating User Login" duration-ms="7007" started-at="2021-09-30T22:43:01 IST" finished-at="2021-09-30T22:43:08 IST">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initializeHome()[pri:0, instance:Academy.HomePage@15a34df2]" name="initializeHome" is-config="true" duration-ms="1197" started-at="2021-09-30T22:43:01 IST" finished-at="2021-09-30T22:43:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeHome -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@15a34df2]" name="basePageNavigation" duration-ms="3812" started-at="2021-09-30T22:43:02 IST" data-provider="getData" finished-at="2021-09-30T22:43:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@15a34df2]" name="basePageNavigation" duration-ms="1908" started-at="2021-09-30T22:43:06 IST" data-provider="getData" finished-at="2021-09-30T22:43:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricteduser@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeHomeDriver()[pri:0, instance:Academy.HomePage@15a34df2]" name="closeHomeDriver" is-config="true" duration-ms="85" started-at="2021-09-30T22:43:08 IST" finished-at="2021-09-30T22:43:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomeDriver -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>

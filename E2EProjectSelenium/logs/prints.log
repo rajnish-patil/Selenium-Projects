@@ -1,0 +1,6 @@
+22:26:54.632 [main] INFO  resources.Base - Successfully validated text message
+22:26:56.224 [main] INFO  resources.Base - Driver is initialized
+22:27:00.875 [main] INFO  resources.Base - Navigation Bar is displayed successfully
+22:27:02.208 [main] INFO  resources.Base - Driver is initialized
+22:27:07.284 [main] INFO  resources.Base - nonrestricted user
+22:27:08.730 [main] INFO  resources.Base - restricted user
